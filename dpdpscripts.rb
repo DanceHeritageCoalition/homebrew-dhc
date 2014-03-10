@@ -16,7 +16,7 @@ class Dpdpscripts < Formula
   def install
     bin.install "checksumpackage"
     bin.install "dpdpconfig"
-    bin.install "dpdpfunctions"
+    bin.install "mmfunctions"
     bin.install "makeaccess"
     bin.install "makemetadata"
     bin.install "microservicewatch"
