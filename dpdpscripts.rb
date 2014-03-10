@@ -17,7 +17,7 @@ class Dpdpscripts < Formula
     bin.install "checksumpackage"
     bin.install "dpdpconfig"
     bin.install "dpdpfunctions"
-    bin.install "makeaccess.sh"
+    bin.install "makeaccess"
     bin.install "makemetadata"
     bin.install "microservicewatch"
     bin.install "refiler"
