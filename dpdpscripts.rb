@@ -26,6 +26,7 @@ class Dpdpscripts < Formula
     bin.install "removeDSStore"
     bin.install "restructureForCompliance"
     bin.install "uploadaccess"
+    bin.install "upload-video"
     bin.install "verifySIPCompliance.py"
   end
 end
