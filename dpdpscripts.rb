@@ -1,6 +1,6 @@
 require 'formula'
 
-class dpdpscripts < Formula
+class Dpdpscripts < Formula
   homepage 'http://github.com/bavc/dpdpscripts'
   head 'git://github.com/bavc/dpdpscripts.git'
 
