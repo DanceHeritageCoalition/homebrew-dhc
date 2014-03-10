@@ -1,8 +1,8 @@
 require 'formula'
 
 class Analyzeplot < Formula
-  homepage 'http://github.com/bavc/DPDP_Scripts'
-  head 'git://github.com/bavc/DPDP_Scripts.git'
+  homepage 'http://github.com/bavc/dpdpscripts'
+  head 'git://github.com/bavc/dpdpscripts.git'
 
   depends_on 'bagit'
   depends_on 'cdrtools'
@@ -22,6 +22,7 @@ class Analyzeplot < Formula
     bin.install "microservicewatch"
     bin.install "refiler"
     bin.install "removeDSStore"
+    bin.install "restructureForCompliance"
     bin.install "uploadaccess"
     bin.install "verifySIPCompliance.py"
   end
