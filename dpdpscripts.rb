@@ -2,8 +2,8 @@ require 'formula'
 
 class Dpdpscripts < Formula
   homepage 'http://github.com/bavc/dpdpscripts'
-  url 'http://github.com/dericed/dpdpscripts/archive/v0.1.zip'
-  sha256 '1d1f9fbcf0714a9f960fa8441630b9932a32f821615556512583ee28708f26eb'
+  url 'http://github.com/dericed/dpdpscripts/archive/v0.2.zip'
+  sha256 '3432874dd5b43d0c7358a96d63faa638e347ecef3af56a5cf3af386965d47a94'
   head 'git://github.com/bavc/dpdpscripts.git'
 
   depends_on 'bagit'
