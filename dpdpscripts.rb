@@ -24,5 +24,6 @@ class Dpdpscripts < Formula
     bin.install "uploadaccess"
     bin.install "upload-video"
     bin.install "verifySIPCompliance.py"
+    bin.install "packager"
   end
 end
