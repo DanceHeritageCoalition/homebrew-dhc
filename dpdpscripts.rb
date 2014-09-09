@@ -1,10 +1,10 @@
 require 'formula'
 
 class Dpdpscripts < Formula
-  homepage 'http://github.com/bavc/dpdpscripts'
-  url 'http://github.com/dericed/dpdpscripts/archive/v0.2.zip'
-  sha256 '3432874dd5b43d0c7358a96d63faa638e347ecef3af56a5cf3af386965d47a94'
-  head 'git://github.com/bavc/dpdpscripts.git'
+  homepage 'http://github.com/dericed/dpdpscripts'
+  url 'http://github.com/dericed/dpdpscripts/archive/v0.3.zip'
+  sha256 '5aa41182f6e37f19645c0a7c125c907a5aac34d5d38adf21e5d75b172800a64d'
+  head 'git://github.com/dericed/dpdpscripts.git'
 
   depends_on 'bagit'
   depends_on 'cdrtools'
