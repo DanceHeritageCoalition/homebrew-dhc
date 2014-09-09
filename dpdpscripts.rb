@@ -14,7 +14,7 @@ class Dpdpscripts < Formula
   depends_on 'md5deep'
   depends_on 'media-info'
   depends_on 'xmlstarlet'
-  depends_on 'dericed/mm'
+  depends_on 'dericed/mm/mm'
 
   def install
     bin.install "dpdpconfig"
