@@ -7,7 +7,6 @@ class Dpdpscripts < Formula
   head 'git://github.com/dericed/dpdpscripts.git'
 
   depends_on 'bagit'
-  depends_on 'cdrtools'
   depends_on 'dvdauthor'
   depends_on 'exiftool'
   depends_on 'ffmpeg'
