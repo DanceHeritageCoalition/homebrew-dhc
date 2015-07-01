@@ -3,7 +3,7 @@ require 'formula'
 class Dpdpscripts < Formula
   homepage 'http://github.com/dericed/dpdpscripts'
   url 'http://github.com/dericed/dpdpscripts/archive/v0.6.2.zip'
-  sha256 '54c63956bc8c220da661c4da90eafc0ecf8efac728502920de65c97732363759'
+  sha256 '620145d9ea8c7f065e81b1a6a8a86b532f88f9f7ffd9e110f6cc58d5af409ad3'
   head 'git://github.com/dericed/dpdpscripts.git'
 
   depends_on 'bagit'
