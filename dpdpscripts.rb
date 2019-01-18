@@ -2,8 +2,8 @@ require 'formula'
 
 class Dpdpscripts < Formula
   homepage 'http://github.com/dericed/dpdpscripts'
-  url 'https://github.com/DanceHeritageCoalition/dpdpscripts/archive/v0.6.3.tar.gz'
-  sha256 '03f35eaaeceab47b5353db75862b125d5a5e5e807982581bcc7bd61e608fe5ac'
+  url 'https://github.com/DanceHeritageCoalition/dpdpscripts/archive/v0.6.4.tar.gz'
+  sha256 '06a36e382c5c7483c6b67b650945fc2a2c30befa436f0787531fb5f2ae71725a'
   head 'git://github.com/dericed/dpdpscripts.git'
 
   depends_on 'bagit'
@@ -25,5 +25,6 @@ class Dpdpscripts < Formula
     bin.install "verifySIPCompliance.py"
     bin.install "packager"
     bin.install "dvpackager"
+    bin.install "audiopackager"
   end
 end
