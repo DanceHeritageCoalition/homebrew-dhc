@@ -2,10 +2,9 @@ require 'formula'
 
 class Dpdpscripts < Formula
   homepage 'http://github.com/dericed/dpdpscripts'
-  url 'http://github.com/dericed/dpdpscripts/archive/v0.6.2.zip'
-  sha256 '620145d9ea8c7f065e81b1a6a8a86b532f88f9f7ffd9e110f6cc58d5af409ad3'
+  url 'https://github.com/DanceHeritageCoalition/dpdpscripts/archive/v0.6.3.tar.gz'
+  sha256 '03f35eaaeceab47b5353db75862b125d5a5e5e807982581bcc7bd61e608fe5ac'
   head 'git://github.com/dericed/dpdpscripts.git'
-  revision 1
 
   depends_on 'bagit'
   depends_on 'dvdauthor'
