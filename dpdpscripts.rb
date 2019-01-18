@@ -5,15 +5,16 @@ class Dpdpscripts < Formula
   url 'http://github.com/dericed/dpdpscripts/archive/v0.6.2.zip'
   sha256 '620145d9ea8c7f065e81b1a6a8a86b532f88f9f7ffd9e110f6cc58d5af409ad3'
   head 'git://github.com/dericed/dpdpscripts.git'
+  revision 1
 
   depends_on 'bagit'
   depends_on 'dvdauthor'
   depends_on 'exiftool'
-  depends_on 'ffmpeg' => [ 'with-ffplay', 'with-openjpeg', 'with-libass', 'with-freetype', 'with-faac' ]
+  depends_on 'ffmpeg' => [ 'with-openjpeg', 'with-libass', 'with-freetype' ]
   depends_on 'md5deep'
   depends_on 'media-info'
   depends_on 'xmlstarlet'
-  depends_on 'dericed/mm/mm'
+  depends_on 'mediamicroservices/mm/mm'
 
   def install
     bin.install "dpdpconfig"
